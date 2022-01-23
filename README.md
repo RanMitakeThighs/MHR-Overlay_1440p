@@ -1,5 +1,5 @@
-# MHR-Overlay_1440p
-MHR Overlay - Customized to my liking (left aligned) and in 1440p standard resolution.
+# MHR-Overlay_1080p
+MHR Overlay - Customized to my liking (left aligned) and in 1080p standard resolution.
 
 Modifications to original code created by GreenComfyTea, cursecat and coavins include:
 - Changes to Colors
