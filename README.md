@@ -2,6 +2,7 @@
 MHR Overlay - Customized to my liking (left aligned) and in 1080p standard resolution.
 
 Original Code created by GreenComfyTea, cursecat and coavins
+
 Modifications (Customization section only) include:
 - Changes to Colors
   - White Text Throughout
