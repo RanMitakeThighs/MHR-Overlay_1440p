@@ -11,7 +11,7 @@ Modifications to original code created by GreenComfyTea, cursecat and coavins in
   - Monster list is located to the right of the map
   - Changed positioning of Time to be closer to centered under the time guage
 - Removed Total Damage from visibility by default
-- Removed Palamute/Palico damage/monster damages from counting towards player(s) damage.
+- Removed Palamute/Palico damage/monster damages from counting towards player(s) damage (set existing values to false - default is true).
 - Extended all bars to be 250px and altered positioning of corresponding text
 - Changed default monster list to be reversed and set to 'normal' from default 'health percentage' (so monsters displayed on top right are listed in order, from left to right)
   - Changed this list type to vertical as well, defaults to horizontal
