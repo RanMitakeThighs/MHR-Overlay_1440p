@@ -11,3 +11,7 @@ Modifications to original code created by GreenComfyTea, cursecat and coavins in
   - Changed positioning of Time to be closer to centered under the time guage
 - Removed Total Damage from visibility by default
 - Removed Palamute/Palico damage/monster damages from counting towards player(s) damage.
+- Extended all bars to be 250px and altered positioning of corresponding text
+
+Example Image of how it looks below:
+![image](https://user-images.githubusercontent.com/98252692/150668982-a0aba55e-460d-4631-8072-fa767a3a4401.png)
