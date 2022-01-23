@@ -1,7 +1,8 @@
 # MHR-Overlay_1080p
 MHR Overlay - Customized to my liking (left aligned) and in 1080p standard resolution.
 
-Original Code created by GreenComfyTea, cursecat and coavins
+Original Code created by GreenComfyTea, cursecat and coavins.   
+Original: https://www.nexusmods.com/monsterhunterrise/mods/50?tab=posts&BH=4
 
 Modifications (Customization section only) include:
 - Changes to Colors
