@@ -23,8 +23,8 @@ local monster_UI = {
 	},
     
     position = {
-        x = 15,
-        y = 775,  
+        x = 385,
+        y = 150,  
         --Possible values: "top-left", "top-right", "bottom-left", "bottom-right"
         anchor = "bottom-left"
     },
@@ -101,8 +101,8 @@ local time_UI = {
 	shadow = true,
 
     position = {
-        x = 90,
-        y = 200,
+        x = 65,
+        y = 160,
         --Possible values: "top-left", "top-right", "bottom-left", "bottom-right"
         anchor = "top-left"
     },
@@ -155,9 +155,9 @@ local damage_meter_UI = {
 
 	position = {
 		x = 15,
-		y = 915,  
+		y = 400,  
 		--Possible values: "top-left", "top-right", "bottom-left", "bottom-right"
-		anchor = "bottom-left"
+		anchor = "top-left"
 	},
 
 	offsets = {
