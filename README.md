@@ -1,7 +1,8 @@
 # MHR-Overlay_1080p
 MHR Overlay - Customized to my liking (left aligned) and in 1080p standard resolution.
 
-Modifications to original code created by GreenComfyTea, cursecat and coavins include:
+Original Code created by GreenComfyTea, cursecat and coavins
+Modifications (Customization section only) include:
 - Changes to Colors
   - White Text Throughout
   - Green HP Bar/Red when HP missing
