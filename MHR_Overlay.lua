@@ -106,8 +106,8 @@ local config = {
 	
 			colors = {
 				foreground = 0xFF000099,
-				background = 0xFF000099,
-				capture_health = 0xB933CCCC
+				background = 0xB9000000,
+				capture_health = 0xB9990000
 			},
 		}
 	},
