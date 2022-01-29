@@ -7,14 +7,13 @@ Original: https://www.nexusmods.com/monsterhunterrise/mods/50?tab=posts&BH=4
 Modifications (Customization section only) include:
 - Changes to Colors
   - White Text Throughout
-  - Green HP Bar/Red when HP missing
-  - Darker Orange for user player damage, fellow hunter purple color left default.
+  - Red HP Bar/Black when HP missing
+  - Red for user player damage, fellow hunter blue color left.
 - Changes to positioning of UI Elements
-  - All UI Elements aligned on left side above Map default position and below squad names (This assumes that you plan on hiding the quest objectives UI Element in HUD Settings)
-  - Changed positioning of Time to be closer to centered under the time guage
-- Removed Total Damage from visibility by default
+  - All UI Elements aligned on left side above Map default position (This assumes that you plan on hiding the quest objectives and players UI Element in HUD Settings)
+  - Changed positioning of Time to be closer to centered under the time gauge
 - Removed Palamute/Palico damage/monster damages from counting towards player(s) damage (set existing values to false - default is true).
-- Extended all bars to be 250px and altered positioning of corresponding text
+- Extended Damage bar to 300px
 
 Example Image of how it looks below:
-![image](https://user-images.githubusercontent.com/98252692/150668982-a0aba55e-460d-4631-8072-fa767a3a4401.png)
+![image](https://user-images.githubusercontent.com/98252692/151651917-c23389ea-c828-4bff-9b72-838e337f452a.png)
