@@ -1,5 +1,5 @@
 # MHR-Overlay_1440p
-MHR Overlay (v1.3) - Customized and in 1440p standard resolution.
+MHR Overlay (v1.6) - Customized and in 1440p standard resolution.
 
 Original Code created by GreenComfyTea, cursecat and coavins.   
 Original: https://www.nexusmods.com/monsterhunterrise/mods/50?tab=posts&BH=4
@@ -16,4 +16,5 @@ Modifications (Customization section only) include:
 - Extended Damage bar to 300px
 
 Example Image of how it looks below:
-![image](https://user-images.githubusercontent.com/98252692/151651917-c23389ea-c828-4bff-9b72-838e337f452a.png)
+
+![unknown](https://user-images.githubusercontent.com/98252692/151910038-77c75b14-6d66-4f8d-91cd-4c60ffb430d1.png)
