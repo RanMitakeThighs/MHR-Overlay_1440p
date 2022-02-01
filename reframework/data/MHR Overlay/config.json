@@ -1,0 +1,781 @@
+{
+    "damage_meter_UI": {
+        "damage_bar": {
+            "colors": {
+                "background": 2801795072.0,
+                "foreground": 4278190335.0
+            },
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "height": 20.0,
+                "width": 275.0
+            },
+            "visibility": true
+        },
+        "damage_percentage_label": {
+            "color": 4294967295.0,
+            "offset": {
+                "x": 222.5,
+                "y": 0.5
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%5.1f%%",
+            "visibility": true
+        },
+        "damage_value_label": {
+            "color": 4294967295.0,
+            "offset": {
+                "x": 180.0,
+                "y": 0.5
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%.0f",
+            "visibility": true
+        },
+        "enabled": true,
+        "highlighted_damage_bar": {
+            "colors": {
+                "background": 2801795072.0,
+                "foreground": 4291035136.0
+            },
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "height": 20.0,
+                "width": 275.0
+            },
+            "visibility": true
+        },
+        "player_name_label": {
+            "color": 4294967295.0,
+            "include": {
+                "myself": {
+                    "hunter_rank": true,
+                    "player_id": false,
+                    "player_name": true,
+                    "word_player": false
+                },
+                "others": {
+                    "hunter_rank": true,
+                    "player_id": false,
+                    "player_name": true,
+                    "word_player": false
+                }
+            },
+            "offset": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%s",
+            "visibility": true
+        },
+        "position": {
+            "anchor": "Bottom-Left",
+            "x": 15.0,
+            "y": 900.0
+        },
+        "settings": {
+            "damage_bar_relative_to": "Top Damage",
+            "hide_module_if_total_damage_is_zero": false,
+            "hide_player_if_player_damage_is_zero": false,
+            "highlighted_bar": "Me",
+            "my_damage_bar_location": "First",
+            "orientation": "Vertical",
+            "total_damage_offset_is_relative": true
+        },
+        "sorting": {
+            "reversed_order": false,
+            "type": "Damage"
+        },
+        "spacing": {
+            "x": 270.0,
+            "y": 24.0
+        },
+        "total_damage_label": {
+            "color": 4294931315.0,
+            "offset": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "Total Damage",
+            "visibility": true
+        },
+        "total_damage_value_label": {
+            "color": 4294931315.0,
+            "offset": {
+                "x": 180.0,
+                "y": 0.0
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%.0f",
+            "visibility": true
+        },
+        "tracked_damage_types": {
+            "bomb_damage": true,
+            "installation_damage": false,
+            "kunai_damage": true,
+            "monster_damage": false,
+            "otomo_damage": false,
+            "player_damage": true
+        },
+        "tracked_monster_types": {
+            "large_monsters": true,
+            "small_monsters": true
+        }
+    },
+    "global_settings": {
+        "font": {
+            "bold": true,
+            "family": "Arial",
+            "italic": false,
+            "size": 15.0
+        },
+        "module_visibility": {
+            "during_quest": {
+                "damage_meter_UI": true,
+                "large_monster_UI": true,
+                "small_monster_UI": false,
+                "time_UI": true
+            },
+            "quest_summary_screen": {
+                "damage_meter_UI": true,
+                "time_UI": true
+            },
+            "training_area": {
+                "damage_meter_UI": true,
+                "large_monster_UI": true
+            }
+        }
+    },
+    "large_monster_UI": {
+        "dynamic_positioning": {
+            "enabled": false,
+            "max_distance": 15000.0,
+            "opacity_falloff": true,
+            "viewport_offset": {
+                "x": -100.0,
+                "y": -200.0
+            },
+            "world_offset": {
+                "x": 0.0,
+                "y": 6.0,
+                "z": 0.0
+            }
+        },
+        "enabled": true,
+        "health": {
+            "bar": {
+                "colors": {
+                    "background": 3103784960.0,
+                    "capture": {
+                        "background": 2281701376.0,
+                        "foreground": 4278190335.0
+                    },
+                    "foreground": 4291035136.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 17.0
+                },
+                "size": {
+                    "height": 20.0,
+                    "width": 200.0
+                },
+                "visibility": true
+            },
+            "percentage_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 150.0,
+                    "y": 19.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%5.1f%%",
+                "visibility": true
+            },
+            "text_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": -25.0,
+                    "y": 19.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "HP:",
+                "visibility": false
+            },
+            "value_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 5.0,
+                    "y": 19.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%.0f/%.0f",
+                "visibility": true
+            }
+        },
+        "health_bar": {
+            "offset": {
+                "x": 0.0,
+                "y": 17.0
+            },
+            "size": {
+                "height": 20.0,
+                "width": 200.0
+            },
+            "visibility": true
+        },
+        "health_label": {
+            "offset": {
+                "x": -25.0,
+                "y": 19.0
+            },
+            "shadow": {
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "HP:",
+            "visibility": false
+        },
+        "health_percentage_label": {
+            "offset": {
+                "x": 150.0,
+                "y": 19.0
+            },
+            "shadow": {
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%5.1f%%",
+            "visibility": true
+        },
+        "health_value_label": {
+            "offset": {
+                "x": 5.0,
+                "y": 19.0
+            },
+            "shadow": {
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%.0f/%.0f",
+            "visibility": true
+        },
+        "monster_name_label": {
+            "color": 4294967295.0,
+            "include": {
+                "crown": true,
+                "crown_thresholds": false,
+                "monster_name": true,
+                "scrown_thresholds": false,
+                "size": false
+            },
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%s",
+            "visibility": true
+        },
+        "position": {
+            "anchor": "Bottom-Left",
+            "x": 15.0,
+            "y": 800.0
+        },
+        "rage": {
+            "bar": {
+                "colors": {
+                    "background": 2281701376.0,
+                    "foreground": 3117180518.0
+                },
+                "offset": {
+                    "x": 10.0,
+                    "y": 78.0
+                },
+                "size": {
+                    "height": 7.0,
+                    "width": 185.0
+                },
+                "visibility": true
+            },
+            "percentage_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 145.0,
+                    "y": 78.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%5.1f%%",
+                "visibility": false
+            },
+            "text_label": {
+                "color": 4294939539.0,
+                "offset": {
+                    "x": 15.0,
+                    "y": 61.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "Rage:",
+                "visibility": true
+            },
+            "value_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 100.0,
+                    "y": 62.400001525878906
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%.0f/%.0f",
+                "visibility": true
+            }
+        },
+        "settings": {
+            "orientation": "Horizontal"
+        },
+        "sorting": {
+            "reversed_order": true,
+            "type": "Normal"
+        },
+        "spacing": {
+            "x": 220.0,
+            "y": 40.0
+        },
+        "stamina": {
+            "bar": {
+                "colors": {
+                    "background": 2281701376.0,
+                    "foreground": 3110522053.0
+                },
+                "offset": {
+                    "x": 10.0,
+                    "y": 54.0
+                },
+                "size": {
+                    "height": 7.0,
+                    "width": 185.0
+                },
+                "visibility": true
+            },
+            "percentage_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 145.0,
+                    "y": 54.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%5.1f%%",
+                "visibility": false
+            },
+            "text_label": {
+                "color": 4288935408.0,
+                "offset": {
+                    "x": 15.0,
+                    "y": 37.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "Stamina:",
+                "visibility": true
+            },
+            "value_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 88.5999984741211,
+                    "y": 37.5
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%.0f/%.0f",
+                "visibility": true
+            }
+        }
+    },
+    "small_monster_UI": {
+        "dynamic_positioning": {
+            "enabled": true,
+            "max_distance": 15000.0,
+            "opacity_falloff": true,
+            "viewport_offset": {
+                "x": -50.0,
+                "y": -100.0
+            },
+            "world_offset": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            }
+        },
+        "enabled": false,
+        "health": {
+            "bar": {
+                "colors": {
+                    "background": 3103784960.0,
+                    "capture_health": 3117206579.0,
+                    "foreground": 4278190276.0
+                },
+                "offset": {
+                    "x": 0.0,
+                    "y": 17.0
+                },
+                "size": {
+                    "height": 7.0,
+                    "width": 100.0
+                },
+                "visibility": true
+            },
+            "percentage_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 55.0,
+                    "y": 0.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%5.1f%%",
+                "visibility": false
+            },
+            "text_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": -25.0,
+                    "y": 12.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "HP:",
+                "visibility": false
+            },
+            "value_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 50.0,
+                    "y": 25.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%.0f/%.0f",
+                "visibility": true
+            }
+        },
+        "health_bar": {
+            "offset": {
+                "x": 0.0,
+                "y": 17.0
+            },
+            "size": {
+                "height": 7.0,
+                "width": 100.0
+            },
+            "visibility": true
+        },
+        "health_label": {
+            "offset": {
+                "x": -25.0,
+                "y": 12.0
+            },
+            "shadow": {
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "HP:",
+            "visibility": false
+        },
+        "health_percentage_label": {
+            "offset": {
+                "x": 55.0,
+                "y": 0.0
+            },
+            "shadow": {
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%5.1f%%",
+            "visibility": false
+        },
+        "health_value_label": {
+            "offset": {
+                "x": 50.0,
+                "y": 25.0
+            },
+            "shadow": {
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%.0f/%.0f",
+            "visibility": true
+        },
+        "monster_name_label": {
+            "color": 4294967295.0,
+            "offset": {
+                "x": 5.0,
+                "y": 0.0
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%s",
+            "visibility": true
+        },
+        "position": {
+            "anchor": "Top-Left",
+            "x": 0.0,
+            "y": 0.0
+        },
+        "settings": {
+            "orientation": "Horizontal"
+        },
+        "sorting": {
+            "reversed_order": false,
+            "type": "Normal"
+        },
+        "spacing": {
+            "x": 110.0,
+            "y": 40.0
+        },
+        "stamina": {
+            "bar": {
+                "colors": {
+                    "background": 2281701376.0,
+                    "foreground": 3110522053.0
+                },
+                "offset": {
+                    "x": 10.0,
+                    "y": 54.0
+                },
+                "size": {
+                    "height": 4.0,
+                    "width": 90.0
+                },
+                "visibility": false
+            },
+            "percentage_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 55.0,
+                    "y": 64.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%5.1f%%",
+                "visibility": false
+            },
+            "text_label": {
+                "color": 4288935408.0,
+                "offset": {
+                    "x": 15.0,
+                    "y": 37.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "Stamina:",
+                "visibility": false
+            },
+            "value_label": {
+                "color": 4294967295.0,
+                "offset": {
+                    "x": 15.0,
+                    "y": 54.0
+                },
+                "shadow": {
+                    "color": 4278190080.0,
+                    "offset": {
+                        "x": 1.0,
+                        "y": 1.0
+                    },
+                    "visibility": true
+                },
+                "text": "%.0f/%.0f",
+                "visibility": false
+            }
+        }
+    },
+    "time_UI": {
+        "enabled": true,
+        "position": {
+            "anchor": "Top-Left",
+            "x": 92.5,
+            "y": 210.0
+        },
+        "time_label": {
+            "color": 4294967295.0,
+            "offset": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "shadow": {
+                "color": 4278190080.0,
+                "offset": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "visibility": true
+            },
+            "text": "%02d:%06.3f",
+            "visibility": true
+        }
+    }
+}
