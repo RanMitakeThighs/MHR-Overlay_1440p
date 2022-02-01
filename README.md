@@ -18,3 +18,9 @@ Modifications (Customization section only) include:
 Example Image of how it looks below:
 
 ![unknown](https://user-images.githubusercontent.com/98252692/151910038-77c75b14-6d66-4f8d-91cd-4c60ffb430d1.png)
+
+
+Instructions: 
+Download dependencies from Nexus Mods or Github - Reframework and Reframework D2D
+Download zipped reframework folder.
+Extract to MonsterHunterRise folder.
